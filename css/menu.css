@@ -15,18 +15,15 @@
 	margin-left:200px;
 }
 
-.menu
-{
-	float:right;
-	margin-right: 200px;
-	height: 100%;
-}
+
 .menu-list
 {
 	align-items: center;
 	justify-content: center;
 	position: relative;
 	top:20px;
+	float:right;
+	margin-right: 200px;
 }
 .menu-item
 {
@@ -51,4 +48,135 @@ label[for="check-btn"]
 .menu-item:hover
 {
 	background-color: gray;
+}
+
+@media screen and (max-width: 1100px)
+{
+	.brand
+	{
+		margin-left:150px;
+	}
+	.menu-list
+	{
+		margin-right: 150px;
+	}
+}
+
+@media screen and (max-width: 980px)
+{
+	.brand
+	{
+		margin-left:100px;
+	}
+	.menu-list
+	{
+		margin-right: 100px;
+	}	
+}
+
+@media screen and (max-width: 850px)
+{
+	.brand
+	{
+		margin-left:50px;
+	}
+	.menu-list
+	{
+		margin-right: 50px;
+	}	
+}
+
+@media screen and (max-width: 750px)
+{
+	.brand
+	{
+		margin-left:10px;
+	}
+	.menu-list
+	{
+		margin-right: 10px;
+	}	
+}
+@media screen and (max-width: 680px)
+{
+	.nav
+	{
+		height: 100px;
+	}
+	.brand
+	{
+		display: inline-block;;
+		width: 100%;
+		margin:0;
+		float: none;
+	}
+	.brand h1
+	{
+		text-align: center;
+	}
+	
+	.menu-list
+	{
+		margin-top:4px;
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+		float: none;
+	}
+	.menu-link
+	{
+		padding: 8px 5px;
+	}
+}
+
+@media screen and (max-width: 540px)
+{
+
+	.brand
+	{
+		position: relative;
+		float:left;
+		align-items: center;
+		justify-content: center;
+		top: 25px;
+		display: block;
+		width: 25%;
+		margin-left: 5px;
+	}
+
+	.menu-list
+	{
+		margin:0;
+		position: absolute;
+		top:80px;
+		left:-100%;
+		background-color: #113322;
+		display: block;
+		width: 100%;
+		transition: all .9s;
+		z-index: 0;
+	}	
+
+	label[for="check-btn"]
+	{
+		display: block;
+		float: right;
+		font-size: 50px;
+		margin-right: 5px;
+	}
+	.nav
+	{
+		height: 80px;
+		z-index: 2;
+	}
+	.menu-item
+	{
+		width: 100%;
+		display: block;
+		border-bottom: 1px solid #ffffff;
+	}
+	#check-btn:checked ~ ul
+	{
+		left:0;
+	}
 }
