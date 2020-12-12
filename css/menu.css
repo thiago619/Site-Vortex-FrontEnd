@@ -1,0 +1,54 @@
+.nav
+{
+	color:#ffffff;
+	background-color:#000000;
+	height: 80px;
+	width: 100%;
+}
+.brand
+{
+	position: relative;
+	float:left;
+	align-items: center;
+	justify-content: center;
+	top: 25px;
+	margin-left:200px;
+}
+
+.menu
+{
+	float:right;
+	margin-right: 200px;
+	height: 100%;
+}
+.menu-list
+{
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top:20px;
+}
+.menu-item
+{
+	display: inline-block;
+}
+#check-btn
+{
+	display: none;
+}
+label[for="check-btn"]
+{
+	display: none;
+}
+.menu-link
+{
+	color:#ffffff;
+	display: block;
+	padding: 10px 5px;
+	text-align: center;
+}
+
+.menu-item:hover
+{
+	background-color: gray;
+}
