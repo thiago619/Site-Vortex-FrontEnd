@@ -1,0 +1,32 @@
+.content
+{
+	margin:50px 200px;
+}
+
+.article
+{
+	border-top:5px solid #000000;
+	display: flex;
+	justify-content: space-between;
+	padding:10px;
+	box-shadow: 5px 5px 20px #000;
+	margin-bottom: 20px;
+}
+
+.img-article
+{
+	width: 48%;
+}
+
+
+
+
+.img-article img
+{
+	width: 100%;
+}
+
+.text-article
+{
+	width: 48%;
+}
