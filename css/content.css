@@ -30,3 +30,56 @@
 {
 	width: 48%;
 }
+
+@media screen and (max-width: 1100px)
+{
+	.content
+	{
+		margin:50px 150px;
+	}
+}
+
+@media screen and (max-width: 980px)
+{
+	.content
+	{
+		margin:50px 100px;
+	}
+}
+
+@media screen and (max-width: 850px)
+{
+	.content
+	{
+		margin:50px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.content
+	{
+		margin:50px 10px;
+	}
+}
+
+@media screen and (max-width: 680px)
+{
+	.article
+	{
+		justify-content: center;
+		flex-direction: column;
+		margin:50px 20px;
+	}
+
+	.img-article
+	{
+		width: 100%;
+	}
+
+	.text-article
+	{
+		width: 100%;
+		text-align: center;
+	}
+}
