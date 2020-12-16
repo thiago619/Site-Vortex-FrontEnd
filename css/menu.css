@@ -163,6 +163,7 @@ label[for="check-btn"]
 		float: right;
 		font-size: 50px;
 		margin-right: 5px;
+		cursor: pointer;
 	}
 	.nav
 	{
